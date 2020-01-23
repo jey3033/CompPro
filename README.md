@@ -19,6 +19,10 @@ Web Company Profile
 1. Belum tertemplate sepenuhnya
 2. Tidak dibuat dropdown karena dropdownnya ngebug, untuk sementara seperti itu
 
+Rencana ke depan :
+
+1. embed map dari backend
+
 
 ## Links ##
 
