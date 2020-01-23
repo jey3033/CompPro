@@ -1,0 +1,10 @@
+CUSTOMIZATION CMS SILVERSTRIPE ADMIN
+
+CARA UBAH LOGO DI SILVERSTRIPE CMS
+
+BUKA DI 
+C:\xampp\htdocs\coba\vendor\silverstripe\admin\templates\SilverStripe\Admin\Includes\LeftAndMain_MenuLogo.ss
+
+
+read more :
+https://docs.silverstripe.org/en/4/developer_guides/customising_the_admin_interface/how_tos/extend_cms_interface/

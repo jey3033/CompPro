@@ -1,21 +1,24 @@
 ## Overview
 
-Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Required modules are installed via [http://github.com/silverstripe/recipe-cms](http://github.com/silverstripe/recipe-cms). For information on how to change the dependencies in a recipe, please have a look at [https://github.com/silverstripe/recipe-plugin](https://github.com/silverstripe/recipe-plugin). In addition, installer includes [theme/simple](https://github.com/silverstripe-themes/silverstripe-simple) as a default theme.
+Web Company Profile
 
-## Installation ##
+## Note ##
 
-See [installation on different platforms](http://doc.silverstripe.org/framework/en/installation/),
-and [installation from source](http://doc.silverstripe.org/framework/en/installation/from-source).
+1. Data bisa diisi di backend
+2. Jika Foto yang ditampilkan di Depan adalah 3 Foto Teratas dari database(default)
+3. Tidak perlu input data via kodingan, inputlah dari backend
+4. Security dan Setting tidak dihilangkan karena adanya kemungkinan untuk mengubah setting dan menambah user
+5. jika ingin menambahkan gambar di CMS bisa melihat ubah logo.txt
 
 ## Bugtracker ##
 
-Bugs are tracked on github.com ([framework issues](https://github.com/silverstripe/silverstripe-framework/issues),
-[cms issues](https://github.com/silverstripe/silverstripe-cms/issues)).
-Please read our [issue reporting guidelines](https://docs.silverstripe.org/en/4/contributing/issues_and_bugs/).
+
 
 ## Development and Contribution ##
 
-If you would like to make changes to the SilverStripe core codebase, we have an extensive [guide to contributing code](http://doc.silverstripe.org/framework/en/misc/contributing/code).
+1. Belum tertemplate sepenuhnya
+2. Tidak dibuat dropdown karena dropdownnya ngebug, untuk sementara seperti itu
+
 
 ## Links ##
 
