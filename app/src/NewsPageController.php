@@ -13,7 +13,7 @@ class NewsPageController extends PageController
 		$paginatedProperties = PaginatedList::create(
         	News::get(),
         	$e
-        )->setPageLength(1)
+        )->setPageLength(3)
         ->setPaginationGetVar('s');
 
         return ['Results' => $paginatedProperties];

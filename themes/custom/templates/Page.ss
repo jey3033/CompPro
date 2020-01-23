@@ -32,7 +32,7 @@ Change it, enhance it and most importantly enjoy it!
 <% include Header %>
 <div class="main" role="main">
 	<% if $ParentID == 2 || $MenuTitle == 'Info' %>
-	<nav class="primary">
+	<nav>
 		<span class="nav-open-button"></span>
 		<ul class = "nav nav-pills card-header-pills  nav-fill">
 		<% loop $ChildrenOf(Info) %>

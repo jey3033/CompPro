@@ -45,16 +45,22 @@
   </a>
 </div>
 
-<div>
+<hr>
+
+<div class="container">
 	<div>$Info.Description<a href="info">read more</a></div>
 </div>
 
-<div>
+<hr>
+
+<div class="container">
 	<H2><a href="news">News</a></H2>
+  <div class="row">
 	<% loop $News %>
-		<div>
+		<div class="col">
 			<H3>$Title</H3>
 			<p>$Description.FirstParagraph<a href="news/show/{$ID}">read more</a></p>
 		</div>
 	<% end_loop %>
+  </div>
 </div>
