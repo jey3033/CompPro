@@ -17,7 +17,7 @@ class HomePageController extends PageController
 			]));
 			$s++;
 		}
-		$info = InfoPage::get()->first();
+		$info = InfoPage::get()->sort('ID', 'ASC')->first();
 		return [
 			'News' => $dataNews,
 			'Photo' => $dataGallery,
