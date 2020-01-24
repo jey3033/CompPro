@@ -3,11 +3,17 @@
 use SilverStripe\ORM\DataObject;
 use SilverStripe\Assets\Image;
 use SilverStripe\Forms\FieldList;
+use SilverStripe\Forms\TextField;
+use SilverStripe\Forms\TextareaField;
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Versioned\Versioned;
 
 class GalleryImage extends DataObject
 {
+	private static $db = [
+		'Title' => 'Varchar',
+		'Desc' => 'Text'
+	];
 	private static $has_one = [
 		'Photo' => Image::class,
 		'GalleryPage' => GalleryPage::class
@@ -35,7 +41,9 @@ class GalleryImage extends DataObject
 
 	public function getCMSFields(){
 		$fields = FieldList::create(
-			UploadField::create('Photo')
+			UploadField::create('Photo'),
+			TextField::create('Title'),
+			TextareaField::create('Desc')
 		);
 
 		return $fields;

@@ -10,5 +10,9 @@
 	<div>
 		<H3>This is our place</H3>
 	</div>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.2660803627105!2d126.90600251482665!3d37.54879443290262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c992bb3f6a887%3A0x6058954f87325221!2sYG%20Entertainment!5e0!3m2!1sen!2sid!4v1579765591677!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	<% if $EmbedMap %>
+	<div>$EmbedMap</div>
+	<% else %>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4427501106493!2d112.7684862143515!3d-7.304052673832717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb89f1c42717%3A0x6858ff81a69f99a3!2sMorning%20Glory%20Enterprise!5e0!3m2!1sen!2sid!4v1579828524645!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	<% end_if %>
 </div>

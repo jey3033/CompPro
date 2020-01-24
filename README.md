@@ -16,8 +16,6 @@ Web Company Profile
 
 ## Development and Contribution ##
 
-1. Belum tertemplate sepenuhnya
-2. Tidak dibuat dropdown karena dropdownnya ngebug, untuk sementara seperti itu
 
 
 ## Links ##

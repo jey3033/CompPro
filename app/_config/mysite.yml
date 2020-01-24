@@ -8,6 +8,10 @@ SilverStripe\Admin\LeftAndMain:
   extensions:
     - Extensions\LeftAndMainExtension
 
+SilverStripe\SiteConfig\SiteConfig:
+    extensions:
+      - CustomSiteConfig
+
 ---
 Name: my-project-assetsflysystem
 After: '#assetsflysystem'

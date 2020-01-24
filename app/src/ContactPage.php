@@ -5,6 +5,8 @@ use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextareaField;
 use SilverStripe\Forms\TextField;
 use SilverStripe\Forms\OptionsetField;
+use SilverStripe\Forms\EmailField;
+use SilverStripe\Forms\HTMLEditor\HTMLEditorField;
 
 class ContactPage extends Page
 {
@@ -15,7 +17,9 @@ class ContactPage extends Page
 		'WA' => 'Boolean',
 		'Insta' => 'Text',
 		'LinkedIn' => 'Text',
-		'Facebook' => 'Text'
+		'Facebook' => 'Text',
+		'EmbedMap' => 'HTMLText',
+		'Email' => 'Text'
 	];
 
 	public function getCMSFields(){
@@ -34,7 +38,9 @@ class ContactPage extends Page
 			OptionsetField::create('WA', "Whatsapp Number", $source),
 			TextField::create('Insta', "Company's Instagram Link"),
 			TextField::create('LinkedIn', "Company's LinkedIn Profile"),
-			TextField::create('Facebook', "Company's Facebook Profile")
+			TextField::create('Facebook', "Company's Facebook Profile"),
+			EmailField::create('Email'),
+			TextareaField::create('EmbedMap', "Company's Location")
 		]);
 
 		return $fields;

@@ -1,19 +1,13 @@
-<header class="header" role="banner">
-	<div class="inner">
-		<div class="unit size4of4 lastUnit">
-			<a href="$BaseHref" class="brand" rel="home">
+<header id="header" class>
+	<div class="container-fluid">
+		<div id="logo" class="pull-left">
+			<a href="$BaseHref" class="scrollto">
 				<h1>$SiteConfig.Title</h1>
 				<% if $SiteConfig.Tagline %>
 				<p>$SiteConfig.Tagline</p>
 				<% end_if %>
 			</a>
-			<% if $SearchForm %>
-				<span class="search-dropdown-icon">L</span>
-				<div class="search-bar">
-					$SearchForm
-				</div>
-			<% end_if %>
-			<% include Navigation %>
 		</div>
+		<% include Navigation %>
 	</div>
 </header>
