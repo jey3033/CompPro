@@ -1,12 +1,12 @@
-1. Home
+1. Home <v>
 	-Banner <v>
-	-online support chat (ex: TawkTo)
+	-online support chat (ex: TawkTo) <ini harus dihosting dulu ?>
 	-Footer: contact, social media<v>linked to Contact
-2. Service/Product
+2. Service/Product <contoh isinya agak agak mirip sama service yang ada di crosstechno ?>
 3. Portofolio/Gallery [v]
 4. Blog/News [v]
-5. About -> masuk InfoPage(karena tidak ada hal yang dicustom)
-6. FAQ -> masuk InfoPage(karena tidak ada hal yang dicustom)
+5. About -> masuk InfoPage(karena tidak ada hal yang dicustom) <v>
+6. FAQ -> masuk InfoPage(karena tidak ada hal yang dicustom) <v>
 7. Contact [v]
 	-Contact detail<v>->isi dari halaman contact di backend
 	-Contact form<v>
