@@ -33,7 +33,7 @@ class AddOn
 			print_r($mail);
 			//recipients
 			$mail->setFrom($from, $from_name);
-			$mail->addAddress('jeremy236@gmail.com', 'jeremy jayanto');
+			$mail->addAddress($siteconf->email_to, $siteconf->email_to_name);
 			//content
 			$mail->isHTML(true);
 			$mail->Subject = $subject;
