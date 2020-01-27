@@ -50,22 +50,6 @@ namespace {
             Requirements::javascript('lib/lightbox/js/lightbox.min.js');
             Requirements::javascript('lib/touchSwipe/jquery.touchSwipe.min.js');
             Requirements::javascript('javascript/main.js');
-            
-            /*Requirements::css('css_/bootstrap.css');
-            Requirements::css('css_/bootstrap.min.css');*/
-            /*Requirements::css('css/style.css');*/
-            /*Requirements::javascript('javascript_/common/jquery-1.11.1.min.js');
-            Requirements::javascript('javascript_/bootstrap.js');
-            Requirements::javascript('javascript_/bootstrap.bundle.js');
-            Requirements::javascript('javascript_/bootstrap.min.js');
-            Requirements::javascript('javascript_/bootstrap.bundle.min.js');*/
-            /*Requirements::javascript('javascript/common/bootstrap-datepicker.js');
-            Requirements::javascript('javascript/common/chosen.min.js');
-            Requirements::javascript('javascript/common/bootstrap-checkbox.js');
-            Requirements::javascript('javascript/common/nice-scroll.js');
-            Requirements::javascript('javascript/common/modernizr.js');
-            Requirements::javascript('javascript/common/jquery-browser.js');*/
-            /*Requirements::javascript('javascript/scripts.js');*/
             // You can include any CSS or JS required by your project here.
             // See: https://docs.silverstripe.org/en/developer_guides/templates/requirements/
         }

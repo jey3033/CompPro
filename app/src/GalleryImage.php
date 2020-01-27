@@ -41,10 +41,12 @@ class GalleryImage extends DataObject
 
 	public function getCMSFields(){
 		$fields = FieldList::create(
-			UploadField::create('Photo'),
+			$u = UploadField::create('Photo'),
 			TextField::create('Title'),
 			TextareaField::create('Desc')
 		);
+
+		$u->setFolderName('gallery-photos');
 
 		return $fields;
 	}

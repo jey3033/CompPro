@@ -9,6 +9,8 @@ Web Company Profile
 3. Tidak perlu input data via kodingan, inputlah dari backend
 4. Security dan Setting tidak dihilangkan karena adanya kemungkinan untuk mengubah setting dan menambah user
 5. jika ingin menambahkan gambar di CMS bisa melihat ubah logo.txt
+6. chat sudah fungsional mengarah ke akun tawk.to saya(jey3033)
+7. Service sudah ada(input dari belakang)
 
 ## Bugtracker ##
 
