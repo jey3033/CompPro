@@ -23,7 +23,7 @@
 			<div class="contact-email">
 				<i class="ion-ios-email-outline"></i>
 				<h3>Email</h3>
-				<p><a href="tel:{$Email}">$Email</a></p>
+				<p><a href="mailto:{$Email}">$Email</a></p>
 			</div>
 		</div>
 	</div>
@@ -55,9 +55,7 @@
 
 <div class="row">
 	<div class="col-sm">
-		<div>
-			<h3>Contact Us Here</h3>
-		</div>
+		<h2 class="title" align="center">Visit Us Here</h2>
 		Address : $Address<br>
 		Landline : $Landline<br>
 		Phone Number : <% if $WA %><a href="https://api.whatsapp.com/send?phone=$Phone&text=Saya%20ingin%20bertanya%20sesuatu">
@@ -69,9 +67,7 @@
 		Facebook : <% if $Facebook %><a href="$Facebook">$Facebook</a><% else %>No Facebook<% end_if %><br>
 	</div>
 	<div class="col-sm" id="map">
-		<div>
-			<H3>This is our place</H3>
-		</div>
+		<h2 class="title" align="center">This is our place</h2>
 		<% if $EmbedMap %>
 		<div>$EmbedMap</div>
 		<% else %>

@@ -6,9 +6,9 @@
 3. Portofolio/Gallery [v]
 4. Blog/News [v]
 5. About -> masuk InfoPage(karena tidak ada hal yang dicustom) <v>
-6. FAQ -> masuk InfoPage(karena tidak ada hal yang dicustom) <v>
+6. FAQ <v>
 7. Contact [v]
 	-Contact detail<v>->isi dari halaman contact di backend
 	-Contact form<v>
 	-Map<v>->Embed(kalo gak default mengarah ke map posisi mge)
-	-Link to whatsapp<v>
+	-Link to whatsapp<v>->link to whatsapp ada di footer dan visit us here, yang di contact us itu telpon(jika link ke hape langsung telpon)

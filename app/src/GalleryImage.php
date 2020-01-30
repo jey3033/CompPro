@@ -12,7 +12,8 @@ class GalleryImage extends DataObject
 {
 	private static $db = [
 		'Title' => 'Varchar',
-		'Desc' => 'Text'
+		'Desc' => 'Text',
+		'Linkto' => 'Varchar'
 	];
 	private static $has_one = [
 		'Photo' => Image::class,
@@ -43,6 +44,7 @@ class GalleryImage extends DataObject
 		$fields = FieldList::create(
 			$u = UploadField::create('Photo'),
 			TextField::create('Title'),
+			TextField::create('Linkto'),
 			TextareaField::create('Desc')
 		);
 

@@ -21,25 +21,38 @@
 					<h4>Contact Us</h4>
 					<p>
 						$FContact.Address<br>
-						<% if $FContact.Insta %>
-						<a href="$FContact.Insta">Our Instagram Page</a><br>
-						<% end_if %>
-						<% if $FContact.LinkedIn %>
-						<a href="$FContact.LinkedIn">Our Linkedin Profile</a><br>
-						<% end_if %>
-						<% if $FContact.Facebook %>
-						<a href="$FContact.Facebook">$FContact.Facebook</a><br>
-						<% end_if %>
-						$FContact.Landline<br>
+						<a href="tel:{$FContact.Landline}">$FContact.Landline</a><br>
+						<a href="tel:{$FContact.Phone}">$FContact.Phone</a>
 						<% if $FContact.WA %>
 						<a href="https://api.whatsapp.com/send?phone=$FContact.Phone&text=Saya%20ingin%20bertanya%20sesuatu">
-						<% else %>
-						<a href="tel:{$FContact.Phone}">
+							<i class="fa fa-whatsapp"></i>
+						</a>
 						<% end_if %>
-						$FContact.Phone</a><br>
+						<br>
 					</p>
+					<div class = "social-links">
+						<% if $FContact.Insta %>
+						<a href="$FContact.Insta"><i class="fa fa-instagram"></i></a>
+						<% end_if %>
+						<% if $FContact.LinkedIn %>
+						<a href="$FContact.LinkedIn"><i class="fa fa-linkedin"></i></a>
+						<% end_if %>
+						<% if $FContact.Facebook %>
+						<a href="$FContact.Facebook"><i class="fa fa-facebook"></i></a>
+						<% end_if %>
+						</div>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="copyright">
+			© Copyright 
+			<strong>BizPage</strong>
+			. All Rights Reserved
+		</div>
+		<div class="credits">
+			Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
 		</div>
 	</div>
 </footer>

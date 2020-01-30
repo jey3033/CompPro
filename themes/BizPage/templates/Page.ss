@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if !IE]><!-->
 <html lang="$ContentLocale">
@@ -50,7 +51,7 @@
 	              <div class="carousel-content">
 	                <h2>$Title</h2>
 	                  <p>$Desc</p>
-	                  <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+	                  <a href="$Linkto" class="btn-get-started">Get Started</a>
 	              </div> 
 	            </div>
 	          </div>

@@ -19,7 +19,8 @@ class ContactPageController extends PageController
 		$from = $data['email'];
 		$dataEmail = [
 			'name' => $data['name'],
-			'body' => $data['message']
+			'body' => $data['message'],
+			'emailto' => $data['email']
 		];
 		$template = $this->customise($dataEmail)->renderWith('/layout/emailTemplate');
 		$p = AddOn::sendEmailSMTP($from, $from_name, $data['subject'], $dataEmail, $template);

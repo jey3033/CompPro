@@ -3,6 +3,8 @@
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
+use SilverStripe\Forms\PasswordField;
+use SilverStripe\Security\PasswordEncryptor;
 
 class CustomSiteConfig extends DataExtension
 {
@@ -35,8 +37,7 @@ class CustomSiteConfig extends DataExtension
 		);
 		$fields->addFieldToTab(
 			'Root.Email',
-			new TextField('SMTPPassword', "SMTP Password")
+			new PasswordField('SMTPPassword', "SMTP Password")
 		);
-
 	}
 }

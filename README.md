@@ -9,8 +9,7 @@ Web Company Profile
 3. Tidak perlu input data via kodingan, inputlah dari backend
 4. Security dan Setting tidak dihilangkan karena adanya kemungkinan untuk mengubah setting dan menambah user
 5. jika ingin menambahkan gambar di CMS bisa melihat ubah logo.txt
-6. chat sudah fungsional mengarah ke akun tawk.to saya(jey3033)
-7. Service sudah ada(input dari belakang)
+6. Footer Selesai
 
 ## Bugtracker ##
 
@@ -18,7 +17,12 @@ Web Company Profile
 
 ## Development and Contribution ##
 
-
+v2 changelog :
+1. chat sudah fungsional mengarah ke akun tawk.to saya(jey3033)
+2. Service sudah ada(input dari backend)
+3. menunjukan ke alamat email yang dituju pada body email
+4. semua template selesai
+5. FAQ page sudah ada sendiri(beserta templatingnya)
 
 ## Links ##
 
