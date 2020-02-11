@@ -54,7 +54,7 @@ namespace {
             // See: https://docs.silverstripe.org/en/developer_guides/templates/requirements/
         }
         public function dataGallery(){
-            $dataGallery = GalleryImage::get()->limit(3);
+            $dataGallery = CarouselImage::get()->limit(3);
             return $dataGallery;
         }
         public function GID(){
